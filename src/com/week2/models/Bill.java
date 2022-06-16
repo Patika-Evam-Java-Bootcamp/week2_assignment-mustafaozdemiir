@@ -1,7 +1,7 @@
 package com.week2.models;
 
 import java.util.Date;
-
+// Değişkenlere sınıf dışından erişilmemesi için private olarak tanımlandı. Getter ve setter metodları oluşturuldu.
 public class Bill {
     private int id;
     private double amount;

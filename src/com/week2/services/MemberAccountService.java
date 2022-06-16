@@ -1,7 +1,7 @@
 package com.week2.services;
 
 public class MemberAccountService {
-
+// MemberAccount için crud işlem metodları oluşturuldu.
     public static void create(){
         System.out.println("Üye hesabı oluşturuldu.");
     }

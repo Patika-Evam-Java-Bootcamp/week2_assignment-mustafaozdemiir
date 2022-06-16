@@ -1,5 +1,6 @@
 package com.week2.models;
 
+// Değişkenlere sınıf dışından erişilmemesi için private olarak tanımlandı. Getter ve setter metodları oluşturuldu.
 public class Response {
     private String code;
     private String date;

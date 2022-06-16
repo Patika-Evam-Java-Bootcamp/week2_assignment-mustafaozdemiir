@@ -1,5 +1,6 @@
 package com.week2.models;
 
+// Değişkenlere sınıf dışından erişilmemesi için private olarak tanımlandı. Getter ve setter metodları oluşturuldu.
 public class MemberAccount {
     private int id;
     private String name;
@@ -18,7 +19,7 @@ public class MemberAccount {
         this.name = name;
         this.surname = surname;
         this.balance = balance;
-        this.memberCode = id+name.substring(0,2);
+        this.memberCode = id+name.substring(0,2); // membercodu id + name' in ilk 2 harfi ile oluşturup atamasını yapıyoruz.
         this.phoneNumber = phoneNumber;
     }
 
